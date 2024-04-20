@@ -19,8 +19,8 @@ const createDatabase = async () => {
 				['John', '1234'],
 				['Eve', 'secretpassword'],
 				['Alice', 'moresecret'],
-				['Bob', 'hushdonttellanyone'],
-				...new Array(40).fill(null).map(() => [casual.username, casual.password])
+				['Bob', 'moresecret'],
+				...new Array(10).fill(null).map(() => [casual.username, casual.password])
 			]
 			for (const [i, [name, pw]] of users.entries()) {
 				const md5pw = crypto.createHash('md5').update(pw).digest('hex')
