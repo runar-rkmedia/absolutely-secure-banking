@@ -17,4 +17,8 @@ I created this for use in educational presentations.
   - Each database is created on demand (in memory), with the scope-key set as a cookie.
   - Auto-cleanup if there are too many databases.
 
-  ./docs/assets/abs.mp4
+
+
+
+https://github.com/runar-rkmedia/absolutely-secure-banking/assets/5629981/29de0bcc-a464-45c5-80c4-275fd6264239
+
